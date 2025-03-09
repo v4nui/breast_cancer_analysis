@@ -70,7 +70,7 @@ Finally, for each feature group, chi-square tests and Cramér's V were computed.
 
 The analysis was implemented in Python, leveraging several powerful libraries to facilitate data ingestion, manipulation, visualization, and statistical testing:
 
-_Data Access & Manipulation:_
+**Data Access & Manipulation:**
 
 kagglehub was used to seamlessly import datasets from Kaggle.
 
@@ -116,7 +116,8 @@ jupyter notebook
 
 ```
 
-This will open a web interface in your default browser. Navigate to the notebook file ( `BreastCancerAnalysis.ipynb `) and open it.
+This will open a web interface in your default browser. Navigate to the notebook file ( `bc_analysis.ipynb `) and open it.
+For group specific analysis pick the `bc_<group name>_analysis.ipynb ` file and open it.
 
 - Execute the Notebook:
 
@@ -198,7 +199,7 @@ plt.show()
 
 ```
 
-**Conclusion:**
+### Conclusion:
 
 Based on the statistical tests and visualizations, the metrics compactness_mean, concave_points_worst, concavity_mean, and radius_worst have been determined as key indicators in distinguishing between malignant and benign cases. Their strong associations suggest that they are effective predictors and have been incorporated into the final predictive model summary.
 
