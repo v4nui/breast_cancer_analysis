@@ -211,9 +211,9 @@ Based on the statistical tests and visualizations, the metrics compactness_mean,
 
 ├── bc\_<name of the metric>\_analysis # notebooks where you can find targeted group analysis per name of the metric
 
-├── bc_global # notebook file where I did the initial spets of the analysis and the summary after analysisng each individual group
+├── bc_global # notebook file where I did the initial steps of the analysis and the summary after analysing each individual group
 
-├── plots # folder with all generaled plot images(histograms, heatmaps, boxplots)
+├── plots # folder with all generated plot images(histograms, heatmaps, boxplots)
 
 ├── README.md # This readme file
 
